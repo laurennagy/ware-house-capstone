@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WareHouse</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/cart.css">
+  <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header role="banner">
+      <div class="image-container">
+        <a href="index.html"><img class="logo" src="resources/img/warehouse-logo.svg" alt="Warehouse Logo"></a>
+      </div>
+      <div role="search" class="search-bar">
+        <input type="text" name="search" placeholder="Search for items">
+        <a href="#" class="icon"><img src="resources/img/search.svg" alt="search"></a>
+      </div>
+      <a role="button" href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart"></a>
+    </header>
+    <nav role="navigation">
+        <a role="menuitem" href="deals.html">Today's Deals</a>
+        <a role="menuitem" href="products.html">All Products</a>
+        <a role="menuitem" href="about.html">About Us</a>
+        <a role="menuitem" href="sell.html">Sell</a>
+        <a role="menuitem" href="#">Help</a>
+    </nav>
+
+    <!-- Cart -->
+
+    <div role="main" id="main" class="product-list-section">
+      <h1>Shopping Cart</h1>
+
+    <div aria-label="shopping cart" class="shopping-cart">
+
+        <div class="row">
+          <div class="image-container">
+            <img src="resources/img/cart/white-console.jpg" alt="White Console">
+          </div>
+
+          <div class="description">
+            <h3>White Console</h3>
+            <br>
+            <span class="price">$499</span>
+          </div>
+
+          <div role="option">
+            Quantity <input type="number" name="Quantity" arialabelledby="product quantity" placeholder="1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="image-container">
+            <img src="resources/img/cart/yellow-chair.jpg" alt="Yellow Chair">
+          </div>
+
+          <div class="description">
+            <h3>Yellow Chair</h3>
+            <br>
+            <span class="price">$189</span>
+          </div>
+
+          <div role="option">
+            Quantity <input type="number" name="Quantity" arialabelledby="product quantity" placeholder="1">
+          </div>
+        </div>
+
+        <div class="row" id="no-border">
+          <div class="image-container">
+            <img src="resources/img/cart/wire-stool.jpg" alt="Wire Stool">
+          </div>
+
+          <div class="description">
+            <h3>Wire Stool</h3>
+            <br>
+            <span class="price">$75</span>
+          </div>
+
+            <div role="option">
+            Quantity <input type="number" name="Quantity" arialabelledby="product quantity" placeholder="1">
+          </div>
+        </div>
+
+      <div class="total">
+        <div class="description">
+          <h3>Total</h3>
+          <span class="price">$763.00</span>
+        </div>
+        <a role="button" href="#" class="button">Checkout</a>
+      </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+
+    <footer role="contentinfo">
+      <a class="logo" href="index.html"><img src="resources/img/home.png" alt="WareHouse Logo"></a>
+      <div class="links">
+        <h4>Get to know us</h4>
+        <a href="#">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Investor relations</a>
+        <a href="#">Link</a>
+      </div>
+      <div class="links">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="#">Become a vendor</a>
+        <a href="#">Fundraiser events</a>
+        <a href="#">Community outreach</a>
+      </div>
+      <div class="links">
+        <h4>Help</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Conditions of use</a>
+        <a href="#">Report a problem</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
